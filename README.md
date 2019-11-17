@@ -33,6 +33,6 @@ node index.js
 You should be able to see the main page of the project that display instructions.
 
 ## NAMES
-CLAVERIE Mathieu
-RAVELOMANANA Iandraina
+- **CLAVERIE** Mathieu
+- **RAVELOMANANA** Iandraina
 
