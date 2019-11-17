@@ -9,7 +9,7 @@ module.exports = {
         res.writeHead(200, {'Content-Type': 'text/html'});
         if (path === '/') {
             res.write('Hello anonymous! To see how it works, type "hello?name=" in your search bar following "localhost:8080/".')
-            res.write('After the =, write either Mathieu or Iandraina. And test it with another different name to see what happens.')
+            res.write('After the =, write either Mathieu or Iandraina. Then Enter. And test it with another different name to see what happens.')
         }
 
         else if (path === '/hello' && 'name' in params) {
