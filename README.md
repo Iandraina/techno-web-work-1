@@ -20,6 +20,7 @@ To install **NodeJS** and **npm**, run:
 ```bash
 sudo apt install nodejs npm
 ```
+You can now access NodeJS and npm from your command line interface.
 
 ### Run the project
 
