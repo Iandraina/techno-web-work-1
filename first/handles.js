@@ -22,6 +22,7 @@ module.exports = {
         } 
         else {
             res.writeHead(404, {'Content-Type': 'text/html'});
+            res.write('Erreur 404')
         }
         res.end();
     }
