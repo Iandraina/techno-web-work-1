@@ -9,11 +9,13 @@ This work combines the server creation, callback function with routing. We separ
 
 To run this work, NodeJS needs to be installed on your computer. 
 
-On Windows and MacOS: 
+#### Windows and MacOS
+
 Go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download the installer. Keep default settings and complete the installation.
 You can now access **NodeJS** and **npm** from your command line inerface
 
-On Linux : 
+#### Linux 
+
 To install **NodeJS** and **npm**, run:
 ```bash
 sudo apt install nodejs npm
