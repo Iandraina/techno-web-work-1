@@ -11,9 +11,9 @@ module.exports = {
             res.write('Hello anonymous')
         }
 
-        if (path === '/hello' && 'name' in params) {
-            if (params['name'] === 'Cedric') {
-                res.write('Je suis '+ params['name']+' et je suis en 2eme annee cycle ingenieur a l ecole Centrale Supelec a Paris.')
+        else if (path === '/hello' && 'name' in params) {
+            if (params['name'] === 'Iandraina' || params['name'] === 'Mathieu') {
+                res.write('My name is '+ params['name']+'. Currently, I am studying at ECE Paris, an engineering school. I am following a classic cursus in 2nd year of engineering cycle specialized in Information System.')
             }
             else{  
                 res.write('Hello ' + params['name'])
